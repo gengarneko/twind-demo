@@ -1,14 +1,20 @@
 import React, { FC } from "react";
-import { css, cx, tw } from "@utils/style";
+import { cx, tw } from "@utils/style";
+import { initTwind } from "../twind.config";
+
+initTwind();
 
 // * --------------------------- comp
 
-export const App: FC = () => (
-  <div className={cx(tw`text-red-500 ${aa}`, "customClass")}>123123</div>
-);
-
-// * --------------------------- style
-
-const aa = css`
-  color: red;
-`;
+export const App: FC = () => {
+  return (
+    <div
+      className={cx(
+        tw`text-xs text-primary m-2`,
+        "customClass"
+      )}
+    >
+      123123
+    </div>
+  );
+};

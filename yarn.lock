@@ -1538,6 +1538,11 @@
   resolved "https://tech-npm.tezign.com/@trysound%2fsax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha1-zMqrdYr1Z2Hre/N69vA/Mm3XmK0=
 
+"@twind/forms@^0.1.4":
+  version "0.1.4"
+  resolved "https://tech-npm.tezign.com/@twind%2fforms/-/forms-0.1.4.tgz#b9d6edcd44bd216fe566199c77938a96f47cb46d"
+  integrity sha1-udbtzUS9IW/lZhmcd5OKlvR8tG0=
+
 "@types/aria-query@^4.2.0":
   version "4.2.2"
   resolved "https://tech-npm.tezign.com/@types%2faria-query/-/aria-query-4.2.2.tgz#ed4e0ad92306a704f9fb132a0cfcf77486dbe2bc"
