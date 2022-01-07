@@ -1,20 +1,15 @@
 import React, { FC } from "react";
-import { cx, tw } from "@utils/style";
-import { initTwind } from "../twind.config";
+import twindConfig from "./twind.config";
+import { setup, tw } from "twind/css";
 
-initTwind();
-
-// * --------------------------- comp
+setup(twindConfig);
 
 export const App: FC = () => {
   return (
     <div
-      className={cx(
-        tw`text-xs text-primary m-2`,
-        "customClass"
-      )}
+      className={tw`text-primary border rounded ${"customClassName"}`}
     >
-      123123
+      twind demo
     </div>
   );
 };
